@@ -1,0 +1,19 @@
+✅ Solusi: Nyalakan PostgreSQL 15
+Coba jalankan perintah ini:
+
+bash
+Copy
+Edit
+sudo pg_ctlcluster 15 main start
+Lalu cek ulang statusnya:
+
+bash
+Copy
+Edit
+sudo pg_ctlcluster 15 main status
+Kalau sukses, hasilnya akan jadi:
+
+bash
+Copy
+Edit
+15/main (port 5432): online
